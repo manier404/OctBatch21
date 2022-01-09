@@ -56,4 +56,5 @@ public class BaseClass2 {
 					"C:\\\\Users\\\\Dell\\\\OctBatch2021\\\\OctBatch\\\\Drivers\\\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
+		
 }
