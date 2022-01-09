@@ -51,7 +51,7 @@ public class BaseClass2 {
 			driver.manage().window().maximize();
 		}
 		// 1. chromedriver
-		public void getChromeDriverasdf() {
+		public void getChromeDrivernew() {
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\\\Users\\\\Dell\\\\OctBatch2021\\\\OctBatch\\\\Drivers\\\\chromedriver.exe");
 			driver = new ChromeDriver();
