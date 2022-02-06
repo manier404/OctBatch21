@@ -12,7 +12,7 @@ public class Employee {
 	static WebDriver driver;
 @Parameters ({"username","Userpassword"})
 @Test(groups= {"Regression","Smoke"})
-private void testone(@Optional("Selenium")String username,@Optional("hello") String userpassword) {
+private void testone(String username, String userpassword) {
 	System.out.println("Before Class");
 	System.out.println("************");
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\git\\Localrepository4\\OctBatch\\Drivers\\chromedriver.exe");
@@ -36,6 +36,7 @@ private void testTwo(String username,String userpassword) {
 		WebElement lastname = driver.findElement(By.name("lastname"));
 		lastname.sendKeys(userpassword);
 }
+@Parameters ({"username","Userpassword"})
 @Test(groups= {"Regression"})
 private void testThree(@Optional("Selenium")String username,@Optional("hello") String userpassword) {
 	System.out.println("Before Class");

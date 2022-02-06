@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name ="username" value="t.manier404"> </parameter>
+ <parameter name ="Userpassword" value="asdfasdfAdsdS"> </parameter>
+  <test thread-count="5" name="Test">
+   <groups>
+  <run>
+  <include name = "Smoke">
+  
+  <parameter name ="username" value="t.manier404"> </parameter>
+    <classes>
+    <class name="org.testngframework.Employee">
+    <methods>
+    <include name ="testTwo">
+  		</include>
+    </methods>
+    </class>
+     <class name="org.testngframework.Employee">
+    <methods>
+    <include name ="testTwo">
+  		</include>
+  		<include name ="testone">
+  		</include>
+    </methods>
+    </class>
+    </classes>
+    </include>
+  </run>
+  </groups>
+  </test>
+  <test thread-count="5" name="Test">
+  
+  <parameter name ="username" value="t.manier404"> </parameter>
+    <classes>
+    <class name="org.testngframework.Employee">
+    <methods>
+    <include name ="testTwo">
+  		</include>
+    </methods>
+    </class>
+    </classes>
+  </test>
+</suite> 
