@@ -1,0 +1,508 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-10T05:07:04.435Z",
+        "line": 10,
+        "name": "Tc001",
+        "description": "",
+        "id": "login-page;tc001",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1519322,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "i want to launch browser",
+            "match": {
+              "location": "LoginPageSteps.i_want_to_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54735,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter \u003cusername\u003e in user textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_username_in_user_textBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38058,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter \u003cusername\u003e and \u003cpassword\u003e in user textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_username_and_password_in_user_textBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41479,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I enter \u003cpassword\u003e in pass textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_password_in_pass_textBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35065,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33354,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "broser with username and password",
+            "match": {
+              "location": "LoginPageSteps.broser_with_username_and_password()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@executeall"
+          },
+          {
+            "name": "@testcase1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T05:07:04.511Z",
+        "line": 29,
+        "name": "",
+        "description": "",
+        "id": "login-page;;|username|password|;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 44472,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "i want to launch browser",
+            "match": {
+              "location": "LoginPageSteps.i_want_to_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36775,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter \u003cusername\u003e in user textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_username_in_user_textBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33782,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I enter \u003cpassword\u003e in pass textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_password_in_pass_textBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32927,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32499,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@executeall"
+          },
+          {
+            "name": "@testcase2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T05:07:04.513Z",
+        "line": 30,
+        "name": "",
+        "description": "",
+        "id": "login-page;;|username|password|;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39340,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "i want to launch browser",
+            "match": {
+              "location": "LoginPageSteps.i_want_to_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35920,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter \u003cusername\u003e in user textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_username_in_user_textBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35920,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I enter \u003cpassword\u003e in pass textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_password_in_pass_textBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31217,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30361,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@executeall"
+          },
+          {
+            "name": "@testcase2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T05:07:04.516Z",
+        "line": 31,
+        "name": "",
+        "description": "",
+        "id": "login-page;;|username|password|;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40624,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "i want to launch browser",
+            "match": {
+              "location": "LoginPageSteps.i_want_to_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34209,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter \u003cusername\u003e in user textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_username_in_user_textBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32071,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I enter \u003cpassword\u003e in pass textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_password_in_pass_textBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31644,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39769,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@executeall"
+          },
+          {
+            "name": "@testcase2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T05:07:04.518Z",
+        "line": 32,
+        "name": "",
+        "description": "",
+        "id": "login-page;;|username|password|;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52597,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "i want to launch browser",
+            "match": {
+              "location": "LoginPageSteps.i_want_to_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35492,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter \u003cusername\u003e in user textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_username_in_user_textBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31643,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I enter \u003cpassword\u003e in pass textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_password_in_pass_textBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32926,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29933,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@executeall"
+          },
+          {
+            "name": "@testcase2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T05:07:04.521Z",
+        "line": 33,
+        "name": "",
+        "description": "",
+        "id": "login-page;;|username|password|;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 69274,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "i want to launch browser",
+            "match": {
+              "location": "LoginPageSteps.i_want_to_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49176,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter \u003cusername\u003e in user textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_username_in_user_textBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46610,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I enter \u003cpassword\u003e in pass textBox",
+            "match": {
+              "location": "LoginPageSteps.i_enter_password_in_pass_textBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35064,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37203,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "enter Submit button",
+            "match": {
+              "location": "LoginPageSteps.enter_Submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@executeall"
+          },
+          {
+            "name": "@testcase2"
+          }
+        ]
+      }
+    ],
+    "name": "Login page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/ModuleOne/LoginPage.feature",
+    "tags": [
+      {
+        "name": "@executeall",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
