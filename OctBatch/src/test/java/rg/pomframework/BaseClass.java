@@ -18,13 +18,13 @@ public class BaseClass {
 public static WebDriver driver;
 //1
 public WebDriver getChromeDriver() {
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\git\\Jan2021_batch-\\Jan_Batch\\Drivers\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\git\\Localrepository4\\OctBatch\\Drivers\\chromedriver.exe");
 	driver = new ChromeDriver();
 	return driver;
 }
 //2
 public WebDriver getInternetDriver() {
-	System.setProperty("webdriver.ie.driver", "C:\\Users\\Dell\\JanBatch2021\\Jan_Batch\\Drivers\\IEDriverServer.exe");
+	System.setProperty("webdriver.ie.driver", "C:\\Users\\Dell\\git\\Localrepository4\\OctBatch\\Drivers\\IEDriverServer.exe");
 	driver = new InternetExplorerDriver();
 	return driver;
 }
