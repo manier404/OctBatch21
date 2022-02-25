@@ -1,0 +1,39 @@
+
+JIRA --> Defect Tracking Tool (Defect/Bug)/ Project Management Tool
+*****
+Sprint-->2 weeks.
+
+Google-->JIRA login -->https://www.atlassian.com/software/jira-->after login-->create project-->Classic proj-->template-->Software-->scrum
+
+Step-1
+Create backlog-->US
+Clicking the story point-->pocker tech-->febonoic series-->1,2,3,5,8,13
+
+Step-2:
+*******
+create sprint with US,
+In sprint planning-->us1 us2 -->Task to develop/Task to test the functionality
+
+Step-3:
+*******
+10 working days-->2 weeks sprint
+
+Step-4
+
+US will closed by BA--> its covered the development and Testing
+
+
+Step-5:
+********
+
+Sprint review-->Demo
+
+
+Step-6:
+******
+retrospective --> what went well and what didnt went as per plan
+
+
+In Sprint Automation:
+
+N-1 Automation:

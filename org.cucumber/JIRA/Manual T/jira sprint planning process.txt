@@ -1,0 +1,77 @@
+Step1:
+******
+right now am in page projects.
+
+click create project-->and select the scrum templete and name it.
+
+
+Step2:
+******
+Backlog--> Create a epic
+
+step3: 
+******
+create a user story and link epic with that 
+
+click the story points(Based on pocker technique--
+febonoic number -1,2,3,5,8,13)
+
+Step 4:
+*******
+Create a sprint...
+in sprint planning we add all the user stories..
+based on story points.
+
+Step 5: 
+********
+Start the sprint 1.
+
+10 working days in 2 weeks of sprint.
+
+Step 6:
+********
+Create a Task for the Userstories and assign to them.(Developer) 
+(link the Epic and user stories with task)
+1.Developer in progress status:
+2.Developer completed  status:
+Create a Task for the Userstories and assign to ourself.(tester, once developer completes)
+tester will connect to epic(AB-1),user stories(AB-2)& Task by developer(AB-3).
+1.Tester in progress status:
+2.Tester in completed  status:
+
+
+Finally
+USerstorry is closed by BA.
+
+Step 7:
+*******
+Sprint completed
+
+Burndown chat will we displayed.
+
+
+Hope you all understood...
+
+Thanks and Regards,
+T.Manivannan
+For feedback ping me : 9894738299
+
+have a nice day .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

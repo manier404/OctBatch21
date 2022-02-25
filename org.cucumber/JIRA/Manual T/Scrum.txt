@@ -1,0 +1,20 @@
+In my project we follow Agile scrum process.
+
+In my team we have 5 developers and 2 tester, we follow 2 week Sprint.
+
+Day 1 starts with Sprint planning, before we go for sprint planning, we have sprint grooming meeting.
+
+we analyze the user stories and if we have any doubts,we get it clarify with our PO in grooming meeting then we go for sprint planning.
+
+In sprint planning, we size and task the user stories.For sizing the user stories we use fibonacci series numbers.
+soon after sizing, I create tasks like prepare test scenarios,to prepare test scripts for the user stories assigned to me.
+
+Day 2 onwards we work in the tasks we have created.
+ 
+ On a daily basis we have the scrum meeting, here we discuss whats the plan for today and whatwe did yesterday
+ 
+If we have any impediments then we need to address that in the scrum meeting.
+
+On the last day of our sprint, we have the sprint review, here we show the product demo to the customer.
+
+Then we go for sprint retrospective, here we discuss what went well and what went not well.

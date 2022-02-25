@@ -1,0 +1,51 @@
+Agile Methodology:
+
+
+Family:
+*******
+
+1. Product Owner (Father).-->client
+2. Scrum Master (Mother). --> Buisness Analyst / Organizer/Who solves the impediments/hurdles
+3. Developer/Testers (Child/Siblings)
+
+
+Terminology:
+************
+
+1.Product Backlocks.(Total requirements split up into US )
+2.Sprint Backlocks.(US which we are going to use in sprint)
+3.Sprint.- 2weaks(10 days)
+4.Burn Down Chat.
+
+Structure:
+*********
+Theme--> collection of Epic--> finaly application
+Epic--> collection of US ---> modules
+User Story---> cllection of Task-->sub modules
+Task--> collection of features--> tester/developer will got it
+Features --> functionality
+
+Ceremonies:	
+***********
+
+1.Sprint Grooming.PW/SM/DEV/Tes
+2.Sprint Planning.dev/tester /BA
+	Estimation:user points
+	***********
+	2a.Pocker Technique.
+		Faboncci Series.
+n1=1 n2=1 n3=n1+n2
+		1	2	3	5	8	13
+		8h	16h	24h	32h	40h	46h	
+	2b.T shirt Sizing.
+		S/M/L/XL/XXL
+
+3.Daily Sprint. dayy 2/Scrum call
+4.Sprint Review. demo of the application to client/reports
+5.Sprint Retrospective.BA/Client/Ddev/test...What went as per plan & what didnt went as per plan/acklowledgement
+
+
+Capacity. 
+Velocity.
+
+ 

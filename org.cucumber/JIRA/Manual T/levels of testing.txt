@@ -1,0 +1,48 @@
+Levels of testing / Types of testing:
+*****************
+
+
+1.Unit testing / component testing.--> module wise we will test it. (Developer side)
+
+2.Integration testing.--> all the modules r integrated and tested.
+
+3.System Testing.-->system to system/ Funtional & non functional testing.
+
+4.Acceptence testing.--> user accepence testing...(client / users)(chrome-Beta version)
+ 
+
+INtegration testing:
+
+1. Big Bang approach.
+after completion of all the modules ,testing will be carried out
+
+Drawbacks:
+
+1.Ideal resurces.
+2.if any bugs or mismatch with requirements we need to start again.consumes lot of time. 
+
+2. Incremental Approach.
+top to bottom approach
+bottom to top approach
+both (Combination)
+
+
+System testing:(White box and Black box):
+
+White box: (Developers) 
+
+Black box testing:(Testers)
+
+Functional testing:4000 test cases
+
+Smoke testing -->Critical 500 cases
+Sanity testing --> updates /patches  50 cases
+Regression testing --> feasible (Automation testing) 3000 cases
+
+Non Functional Testing: 450 cases
+
+Stress testing - Load testing /volume testing
+performance testing--S
+system requirement /Compaitable testing
+Security testing - leagal aspects 
+migration testing-- 
